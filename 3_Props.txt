@@ -22,7 +22,7 @@
 				const Hello = (library, message) => {
 					console.log(props)
 					return (
-						<div className = '"heading">
+						<div className = "heading">
 							<h1>Welcome to {library}</h1>
 							<p>{message}</p>
 						</div>
