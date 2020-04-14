@@ -20,7 +20,7 @@
             <script type="text/babel">
 				const Hello = () => {
 					return (
-						<div className = '"heading">
+						<div className = "heading">
 							<h1>Welcome to React</h1>
 						</div>
 					)
