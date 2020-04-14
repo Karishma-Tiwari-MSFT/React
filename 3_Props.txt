@@ -3,7 +3,7 @@
 	<head>
 		<title>React project</title>
 		<script src = "https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
-		<script src = "https://unpkg.com/react@16.7.0/umd/react-dom.development.js"></script>
+		<script src = "https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
 		<script src = "https://unpkg.com/@babel/standalone/babel.min.js"></script>
 		<style>
 			#heading {
@@ -19,12 +19,12 @@
         <div id="root"></div>
             <script type="text/babel">
 			
-				const Hello = (library, message) => {
-					console.log(props)
+				const Hello = (props) => {
+					console.log(props);
 					return (
 						<div className = "heading">
-							<h1>Welcome to {library}</h1>
-							<p>{message}</p>
+							<h1>Welcome to {props.library}</h1>
+							<p>{props.message}</p>
 						</div>
 					)
 			};
