@@ -24,9 +24,9 @@
 				
 				const App = () => (
 					<div>
-						<Lake name ="Tahoe">
-						<Lake name ="Chelan">
-						<Lake name ="Washington">						
+						<Lake name ="Tahoe"/>
+						<Lake name ="Chelan"/>
+						<Lake name ="Washington"/>						
 					</div>
 				);
 				
