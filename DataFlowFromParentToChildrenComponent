@@ -1,0 +1,29 @@
+function Button(props){
+  return (
+  <button onClick={props.onClickFunction}>
+      +1
+    </button>
+    );
+}
+
+function Display(props){
+  return (
+    <div>{props.message}</div>
+  );
+}
+
+function App(){
+  const [counter, setCounter] = useState(2);
+  const incrementCounter = () => setCounter(2*counter);
+  return (
+    <div>
+    <Button onClickFunction={incrementCounter}/>
+    <Display message ={counter} />
+  </div>  
+  );
+}
+ReactDOM.render(
+ // [<Button />, <Display />],
+  <App />,
+  document.getElementById('mountNode'),
+);
